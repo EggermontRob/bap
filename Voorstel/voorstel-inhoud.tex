@@ -1,0 +1,99 @@
+%---------- Inleiding ---------------------------------------------------------
+
+\section{Introductie} % The \section*{} command stops section numbering
+\label{sec:introductie}
+Met oog op de snel veranderende en groeiende wereld van de IT wordt er steeds meer gebruik gemaakt van containers. Deze containers zorgen voor een snelle, flexibele en schaalbare oplossing voor verschillende eisen die gesteld worden binnen de informatica wereld. Door de verschillende, kleine bouwstenen van deze infrastructuur gaat het overzicht echter snel verloren. 
+Deze studie gaat op zoek naar open source tools die het opzetten en monitoren van containers in Microsoft Azure vereenvoudigd. Daarnaast bespreek dit onderzoek ook tools om het beheren van de containers te vereenvoudigen en CI/CD toepassingen te integreren in de workflow.
+\subsection{Onderzoeksvraag}
+Welke open source tools kunnen efficiënt worden gebruikt om containers op te zetten, te minotoren en te beheren binnen Microsoft Azure?
+\subsection{Onderliggende onderzoeksvragen}
+\begin{itemize}
+    \item Welke tools geven een duidelijk overzicht van de status van containers?
+    \item Hoe pakken we problemen aan bij containers in productie?
+    \item Hoe kunnen we, door gebruik te maken van CI/CD, containers aanpassen/updaten in productie?
+    \item Welke open source tools en platformen kunnen we gebruiken voor containers in Microsoft Azure?
+\end{itemize}
+%---------- Stand van zaken ---------------------------------------------------
+
+\section{Stand van zaken}
+\label{sec:state-of-the-art}
+
+Vandaag de dag worden er meer en meer (open srouce) tools beschikbaar gesteld voor het beheren en onderhouden van containers. Waarsschinlijk de belangrijkste tool is Kubernetes. Dit onderzoek gaat op zoek naar hulpprogramma's die een aanvulling kunnen bieden aan Kubernetes (K8's). Er zijn immens veel Tools, bedoelt voor zowel het management als voor developers en systeembeheerders. Deze tools kunnen we onderverdelen in drie categorieën:
+
+\subsection{CI/CD}
+Continuous integration and continuous delivery ligt aan de basis voor developers. Het automatiseert het process van code tot aflevering van de software (container in dit geval). Een eerste belangrijk onderdeel van CI/CD voor containers zijn  de Package Managers. Deze worden geclassificeerd onder CD (continuous delivery) en staan in voor het 'inpakken' van de code naar een containerimage. Sommigen van deze hulpprogramma's staan zelfs in voor het uitrollen van de gemaakte image. Enkele van deze tools zijn:
+\begin{itemize}
+    \item Helm
+    \item ksonnet and jsonnet
+    \item Draft
+\end{itemize}
+Buiten de package management tools, zijn er verschillende andere tools die instaan voor coninuous delivery zoals Weave Cloud, Spinnaker, Codefresh en Harness. Naast de tools voor coninuous delivery zijn er die voor continuous integration. Deze stukjes software werden ontwikkeld om unit testen uit te voeren en plaatst de tool de geschreven software bij de rest van de code. Als alle testen slagen kan er aan deze tools gevraagd worden om de container image te maken en in de repository van de applicatie te plaatsen. Vele CI-tools hebben intussen ondersteuning toegevoegd om om deze container images uit te rollen in Kubernetes clusters. De meest gebruikte tools hiervoor zijn:
+\begin{itemize}
+    \item Jenkins
+    \item CircleCI
+    \item Travis
+    \item Gitlab
+\end{itemize}
+\subsection{Monitoring}
+Om een goede werking van services te garanderen is een accurate monitoring belangrijker dan ooit. Monitoring software kan instaan voor rapportering naar de developer toe, maar ook naar andere software toe zodat de ontdekte fouten geautomatiseerd opgelost kunnen worden (indien mogelijk). Enkele voorbeelden zijn:
+\begin{itemize}
+    \item Kubebox
+    \item Kubernetes Operational View (Kube-ops-view)
+    \item Kubetail
+    \item Kubewatch
+    \item Weave Scope
+    \item Prometheus
+    \item Searchlight
+    \item cAdvisor
+    \item Kube-state-metrics
+    \item Sumo Logic App
+    \item Dynatrace
+    \item Kubernetes Dashboard
+\end{itemize}
+Alle geschreven code moet uiteraart grondig getest worden vooraleer deze uitgerold wordt naar de eindgebruiker. Deze testen kunnen vaak automatisch verlopen. Om dit te laten gebeuren worden er hulpprogramma's gebruikt zoals:
+\begin{itemize}
+    \item Kube-Monkey
+    \item K8s-testsuite
+    \item Test-infra
+    \item Sonobuoy
+    \item PowerfulSeal
+\end{itemize}
+\subsection{Security}
+Containers die in een Kubernetes cluster zitten komen vaak terecht op een shared of een shared-private cloud omgeving terecht. Het is dus van groot belang het netwerk tussen de containers (of pods in kubernetes) te beveiligen. Dit wordt verwezelijkt door een bepaald netwerkbeleid in te stellen op een cluster. De 4 meest voorkomende programma's zijn:
+\begin{itemize}
+    \item Trireme
+    \item Aporeto
+    \item Twistlock
+    \item Falco
+    \item Sysdig Secure
+    \item Kubesec.io
+\end{itemize}  
+Dit zijn slechts enkele van de duizenden tools die beschikbaar zijn. Het overzicht is dus eenvoudig te verliezen terwijl er duidelijk nood is aan een 'gouden combinatie'.
+
+% Voor literatuurverwijzingen zijn er twee belangrijke commando's:
+% \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
+%   geen onderdeel is van de zin.
+% \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
+%   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
+%   ...'')
+%---------- Methodologie ------------------------------------------------------
+\section{Methodologie}
+\label{sec:methodologie}
+
+Er zal een grondig onderzoek gevoerd worden naar de werking van de eerder venoemde applicaties. Dit op zowel het vlak van individuele werking als mogelijke samenwerking tussen de programma's onderling. De proof of concept zal bestaan uit een samenhang van tools die kan worden gebruikt van development tot monitoring en herstelling van containers in kubernetes clusters. Door deze vergelijkende studie uit te voeren tussen de applicaties onderling zullen de voor- en nadelen van deze tools duidelijk worden. De applicaties zullen worden vergeleken op vlak van prestatie en onderlinge samenwerking (compatibiliteit). De belangrijkste parameter is de werking met Microsoft Azure AKS (Azure Kubernetes Service).
+
+
+%---------- Verwachte resultaten ----------------------------------------------
+\section{Verwachte resultaten}
+\label{sec:verwachte_resultaten}
+
+De verwachte resultaten van de proof of concept zullen de voordelen aantonen van de gekozen toolset voor het volledige ontwikkelproces van containers op Microsoft Azure binnen Kubernetes. 
+
+Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+
+%---------- Verwachte conclusies ----------------------------------------------
+\section{Verwachte conclusies}
+\label{sec:verwachte_conclusies}
+
+Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+
