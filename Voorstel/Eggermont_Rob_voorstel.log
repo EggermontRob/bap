@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  6 DEC 2019 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  9 FEB 2020 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,16 +1153,18 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
- [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Overfull \hbox (2.05058pt too wide) in paragraph at lines 29--31
-\OT1/ptm/m/n/10 (-20) an-dere tools die in-staan voor co-ni-nuous de-li-very zo
--als Weave
- []
+LaTeX Warning: Citation 'Anita' on page 1 undefined on input line 23.
 
-) 
+
+LaTeX Warning: Citation '2018a' on page 1 undefined on input line 23.
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
+
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1170,7 +1172,7 @@ Make it at least 20.96901pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-<HOGENT_Logo_Pos_rgb.png, id=80, 3503.0875pt x 1975.38pt>
+<HOGENT_Logo_Pos_rgb.png, id=85, 3503.0875pt x 1975.38pt>
 File: HOGENT_Logo_Pos_rgb.png Graphic file (type png)
 <use HOGENT_Logo_Pos_rgb.png>
 Package pdftex.def Info: HOGENT_Logo_Pos_rgb.png  used on input line 96.
@@ -1187,43 +1189,40 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./Eggermont_Rob_voorstel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package rerunfilecheck Info: File `Eggermont_Rob_voorstel.out' has not changed.
 
+(rerunfilecheck)             Checksum: F9663A6B3CF146CB4F2EEB93A598FE69;615.
 
-Package rerunfilecheck Warning: File `Eggermont_Rob_voorstel.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Eggermont_Rob_voorstel.out':
-(rerunfilecheck)             Before: FDADAE848B96D2896B6C4526D83DB24C;567
-(rerunfilecheck)             After:  F9663A6B3CF146CB4F2EEB93A598FE69;615.
 
 LaTeX Warning: There were undefined references.
 
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Eggermont_Rob_voorstel
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'Eggermont_Rob_voorstel.run.xml'.
 \openout1 = `Eggermont_Rob_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28587 strings out of 492616
- 507610 string characters out of 6129480
- 1128061 words of memory out of 5000000
- 32055 multiletter control sequences out of 15000+600000
- 585976 words of font info for 210 fonts, out of 8000000 for 9000
+ 28582 strings out of 492616
+ 507625 string characters out of 6129480
+ 1125147 words of memory out of 5000000
+ 32064 multiletter control sequences out of 15000+600000
+ 586488 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,14n,63p,849b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Eggermont_Rob_voorstel.pdf (2 pages, 144525 bytes).
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb>
+Output written on Eggermont_Rob_voorstel.pdf (2 pages, 152259 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
- 47190 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47198 words of extra memory for PDF output out of 51595 (max. 10000000)
 

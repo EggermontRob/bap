@@ -2145,7 +2145,8 @@
     <bcf:datasource type="file" datatype="bibtex">voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Buehrle2018pt1</bcf:citekey>
+    <bcf:citekey order="1">Anita</bcf:citekey>
+    <bcf:citekey order="1">2018a</bcf:citekey>
     <bcf:citekey order="2">Buehrle2018pt2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
