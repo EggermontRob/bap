@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  13 FEB 2020 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  13 FEB 2020 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,20 +1205,20 @@ Package logreq Info: Writing requests to 'Eggermont_Rob_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28589 strings out of 492616
- 507668 string characters out of 6129480
+ 28595 strings out of 492616
+ 507722 string characters out of 6129480
  1124088 words of memory out of 5000000
  32062 multiletter control sequences out of 15000+600000
- 586839 words of font info for 207 fonts, out of 8000000 for 9000
+ 587077 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,14n,63p,849b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,14n,63p,1021b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb>
-Output written on Eggermont_Rob_voorstel.pdf (2 pages, 152371 bytes).
+Output written on Eggermont_Rob_voorstel.pdf (2 pages, 152478 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
