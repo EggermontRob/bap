@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  9 FEB 2020 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.30)  13 FEB 2020 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,18 +1153,17 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Citation 'Anita' on page 1 undefined on input line 23.
+]
+
+LaTeX Warning: Citation 'Anita' on page 2 undefined on input line 26.
 
 
-LaTeX Warning: Citation '2018a' on page 1 undefined on input line 23.
+LaTeX Warning: Citation '2018a' on page 2 undefined on input line 26.
 
-[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-])
-
+) 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1206,11 +1205,11 @@ Package logreq Info: Writing requests to 'Eggermont_Rob_voorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28582 strings out of 492616
- 507625 string characters out of 6129480
- 1125147 words of memory out of 5000000
- 32064 multiletter control sequences out of 15000+600000
- 586488 words of font info for 201 fonts, out of 8000000 for 9000
+ 28589 strings out of 492616
+ 507668 string characters out of 6129480
+ 1124088 words of memory out of 5000000
+ 32062 multiletter control sequences out of 15000+600000
+ 586839 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,14n,63p,849b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1219,7 +1218,7 @@ xlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb>
-Output written on Eggermont_Rob_voorstel.pdf (2 pages, 152259 bytes).
+Output written on Eggermont_Rob_voorstel.pdf (2 pages, 152371 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
